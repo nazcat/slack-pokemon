@@ -110,7 +110,7 @@ app.listen(app.get('port'), function() {
 function buildResponse(text) {
   var json = {
     "text": text,
-    "username": "Pokemon Trainer",
+    "username": "Trump",
     "icon_emoji": ":pkmntrainer:"
   }
   return JSON.stringify(json);
